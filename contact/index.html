@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Contact Bay Mills Educational Resources about books, companion downloads, and corrections.">
+<title>Contact Us | Bay Mills Educational Resources</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+<div class="wrap top">
+<a class="brand" href="../index.html">
+<img src="../assets/images/BMER_Logo.png" alt="Bay Mills Educational Resources logo">
+<span>Bay Mills Educational Resources</span>
+</a>
+<nav aria-label="Main navigation">
+<a href="../index.html">Home</a>
+<a href="../books/index.html">Books</a>
+<a href="../downloads/index.html">Downloads</a>
+<a href="../about/index.html">About</a>
+<a href="../contact/index.html">Contact</a>
+<a href="../help/index.html">Help</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="wrap main">
+<h1>Contact Us</h1>
+
+<div class="content-page">
+<p class="lead">
+Have a question about a BMER book, need help with
+companion files, or want to report a possible correction?
+Send us a message.
+</p>
+
+<form class="contact-form"
+      action="https://formspree.io/f/xvkabzgy"
+      method="POST">
+
+<label for="contact-name">Your name</label>
+<input id="contact-name"
+       name="name"
+       type="text"
+       autocomplete="name"
+       maxlength="120"
+       required>
+
+<label for="contact-email">Email address</label>
+<input id="contact-email"
+       name="email"
+       type="email"
+       autocomplete="email"
+       maxlength="254"
+       required>
+
+<label for="contact-topic">What can we help with?</label>
+<select id="contact-topic" name="topic" required>
+<option value="">Select a topic</option>
+<option value="Book question">Book question</option>
+<option value="Companion download problem">Companion download problem</option>
+<option value="Report a correction">Report a correction</option>
+<option value="General inquiry">General inquiry</option>
+</select>
+
+<label for="contact-book">Book title (optional)</label>
+<input id="contact-book"
+       name="book_title"
+       type="text"
+       maxlength="200">
+
+<label for="contact-message">Message</label>
+<textarea id="contact-message"
+          name="message"
+          rows="7"
+          maxlength="10000"
+          required></textarea>
+
+<p class="muted">
+Please do not include passwords, payment card numbers,
+or other sensitive personal information.
+</p>
+
+<button class="button" type="submit">Send Message</button>
+</form>
+
+<p class="muted">
+Messages are processed through Formspree and delivered
+to the BMER contact inbox.
+</p>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Bay Mills Educational Resources. Educational books and companion learning resources.</p>
+</div>
+</footer>
+</body>
+</html>
